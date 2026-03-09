@@ -1,0 +1,23 @@
+﻿name: app
+description: Flutter WebView wrapper for generalEnv
+publish_to: "none"
+version: 0.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.8.0
+  permission_handler: ^11.3.1
+  geolocator: ^13.0.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

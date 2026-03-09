@@ -1,0 +1,30 @@
+﻿# env
+.env
+.env.*
+
+# node
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+
+# vite
+.vite/
+
+# nest
+backend/dist/
+backend/.nest/
+
+# flutter/dart
+.dart_tool/
+.packages
+.pub-cache/
+/build/
+
+# IDE
+.idea/
+.vscode/
+
+# misc
+*.tmp
